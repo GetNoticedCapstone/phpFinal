@@ -9,6 +9,7 @@
  *         call WebService::getFootballInfo(). Pass in required params which 
  *         are strings. see player_info_manager/index.php and player_info_manager/league_news
  *         for example.  
+ * There is no need to modify this class to use any of the API calls to fantasyfootballnerd.com
  */
 class WebService{
     public static function getFootballInfo($action, $service_name, $user_input){
