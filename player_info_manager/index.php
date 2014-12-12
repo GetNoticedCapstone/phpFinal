@@ -1,4 +1,5 @@
 <?php
+require '../model/FFwebService.php';
 $action = filter_input(INPUT_POST, 'action', FILTER_SANITIZE_STRING);
 if(empty($action)) {
     $action = filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING);
@@ -15,6 +16,7 @@ switch ($action) :
         include '../player_info_manager/get_stats.php';
         break;
     case 'news':
+       $football_Info = WebService::getFootballInfo('league_news', 'schedule', '');  
         include '../player_info_manager/league_news.php';
         break;
     case 'player_info_manager':

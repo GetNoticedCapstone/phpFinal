@@ -9,6 +9,14 @@
     color: black;
     box-shadow: 5px 5px 10px #000;
 }
+.trans_box_news{
+    width: 960px;
+    
+    background: url(../img/transparent_box.png);
+    border-radius: 5px;
+    color: black;
+    box-shadow: 5px 5px 10px #000;
+}
 @media (min-width: 960px){
     .centerAll{
         width: 960px;
