@@ -1,4 +1,10 @@
 <?php 
+/*
+ * footer_1 and header_1 were created to avoid path issues when linking to 
+ * different views. the header.php and footer.php are only to be used with 
+ * the root index.php.  There is probably a better way of handing this but 
+ * didnt want to waste to much time. 
+ */
 echo '<!DOCTYPE html>';
 echo '<html lang="en">';
 ?>
