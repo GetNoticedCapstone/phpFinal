@@ -10,12 +10,18 @@
     box-shadow: 5px 5px 10px #000;
 }
 .trans_box_news{
-    width: 960px;
-    
+    max-width: 960px; 
+    min-height: 620px;
     background: url(../img/transparent_box.png);
     border-radius: 5px;
     color: black;
     box-shadow: 5px 5px 10px #000;
+}
+#schedule{
+    max-height: 400px;
+    max-width: 900px; 
+    overflow: scroll;
+    overflow-x: hidden;
 }
 @media (min-width: 960px){
     .centerAll{
@@ -39,7 +45,9 @@
     text-shadow: 1px 1px 2px #000;
     margin-bottom: 50px;
 }
-
+.txtShadow{
+    text-shadow: 1px 1px 1px #000;
+}
 #login_bg{
     background: url(../img/login_page_bg.jpg) no-repeat;
 }
@@ -65,4 +73,9 @@
 }
 .btn{
     margin-top: 20px;
+}
+.btnNews{
+    max-width: 200px; 
+    text-align:  center;
+    margin-top: 40px;
 }
