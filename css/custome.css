@@ -9,6 +9,22 @@
     color: black;
     box-shadow: 5px 5px 10px #000;
 }
+.trans_box_about{
+    max-width: 960px; 
+    min-height: 620px;
+    background: url(../img/transparent_box.png);
+    border-radius: 5px;
+    color: black;
+    box-shadow: 5px 5px 10px #000;
+}
+.ghSize{
+    width: 50px;
+    height: 50px;
+}
+.liSize{
+   width: 50px;
+    height: 50px; 
+}
 .trans_box_news{
     max-width: 960px; 
     min-height: 620px;
@@ -48,21 +64,10 @@
 .txtShadow{
     text-shadow: 1px 1px 1px #000;
 }
-#login_bg{
-    background: url(../img/login_page_bg.jpg) no-repeat;
-}
 #home_bg{
     background: url(../img/landing_page_bg.jpg) no-repeat;
 }
-#about_bg{
-    background: url(../img/undcBG.jpg) no-repeat;
-}
-#user_bg{
-    background: url(../img/undcBG.jpg) no-repeat;
-}
-#admin_bg{
-    background: url(../img/adminBG.jpg) no-repeat;
-}
+
 .nav{
     max-width: 200px;
 }
@@ -78,4 +83,8 @@
     max-width: 200px; 
     text-align:  center;
     margin-top: 40px;
+}
+.aboutBtn{
+    margin-bottom: 20px;
+    
 }
