@@ -12,10 +12,9 @@
                 <h1 class="logo">Fantasy Football Now</h1>
                 <p class='slogin'>All the stats, updates, news and advise you need to become a
                     fantasy football legend.</p>       
-                <a class="btn-lg btn-success btn" href="player_info_manager">Player News</a>
-                <a class="btn-lg btn-success btn" href="player_info_manager">Player Stats</a>
+                
                 <a class="btn-lg btn-success btn" href="player_info_manager">Around the League</a>
-                <a class="btn-lg btn-success btn" href="about_manager">About FFN</a>    
+                <a class="btn-lg btn-success btn" href="about_manager">About FFN.com</a>    
             </div>
         </div>
     </div>
