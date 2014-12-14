@@ -26,12 +26,12 @@ class WebService{
         $json_data = curl_exec($curl);
         curl_close($curl);
         
-        if($action == 'league_news'){
+        //if($action == 'league_news'){
         // Get an array of movies from the JSON data and return it
         $data = json_decode($json_data, true);
         $football_Info= $data['Schedule'];
         return $football_Info;
-        }
+        //}
     }
     
 }

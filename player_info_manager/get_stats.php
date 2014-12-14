@@ -1,5 +1,14 @@
 <?php include '../view/header_1.php'; ?>
-<div class="container">
+<div class="container centerAll">
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="row">
         <div class="col-md-12">
             <div class="trans_box center-block text-center img-responsive centerAll">
