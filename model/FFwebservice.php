@@ -29,7 +29,12 @@ class WebService{
         //if($action == 'league_news'){
         // Get an array of movies from the JSON data and return it
         $data = json_decode($json_data, true);
-        $football_Info= $data['Schedule'];
+        if (null != $data['Schedule']){
+            $football_Info = $data['Schedule'];
+        }
+        else if (null != $data['Players']){
+            $football_Info= $data['Players'];
+        }
         return $football_Info;
         //}
     }

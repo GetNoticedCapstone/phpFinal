@@ -65,7 +65,7 @@
     text-shadow: 1px 1px 1px #000;
 }
 #home_bg{
-    background: url(../img/landing_page_bg.jpg) no-repeat;
+    background: url(../img/landing_page_bg.jpg) fixed;
 }
 
 .nav{

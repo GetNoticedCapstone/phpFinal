@@ -13,7 +13,7 @@ switch ($action) :
         header ('Location: ../index.php');
         break;
     case 'stats':
-       $football_Info = WebService::getFootballInfo('get_stats', 'player', '');
+       $football_Info = WebService::getFootballInfo('get_stats', 'players', '');
         include '../player_info_manager/get_stats.php';
         break;
     case 'news':

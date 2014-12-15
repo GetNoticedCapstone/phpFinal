@@ -12,5 +12,6 @@ echo '<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></scrip
 echo '<script src="../js/twitter_bootstrap.js"></script>';
 echo '<script src="../js/googleMaps.js"></script>';
 echo '<script src="../js/custome.js"></script>';
+echo '<script src="../js/playerVideos.js"></script>';
 echo '</body>';
 echo '</html>';
