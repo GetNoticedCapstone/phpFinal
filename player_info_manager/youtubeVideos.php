@@ -28,7 +28,7 @@
         ?>
             <tr>
                 <td>
-                    <a href="<?php echo $url; ?>">
+                    <a href="<?php echo $url; ?>" target="_blank">
                         <img src="<?php echo $imgsrc; ?>"/>
                     </a>
                 </td>
@@ -41,7 +41,7 @@
                         <input type="hidden" name="text"
                                value="<?php echo $text; ?>"/>
                     </form>
-                    <a href="<?php echo $url; ?>" class="text-danger txtShadow lead" >
+                    <a href="<?php echo $url; ?>" target="_blank" class="text-danger txtShadow lead" >
                         <?php echo $text; ?>
                     </a>
                 </td>
